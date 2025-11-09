@@ -28,7 +28,7 @@ The goal is to demonstrate:
 - Bcrypt.js for password hashing
 - dotenv for environment variables
 - CORS, Helmet, and Express Validator for security
-- Swagger/Postman for API documentation
+- Postman for API documentation
 
 ### **Frontend**
 - React (Vite)
@@ -47,16 +47,15 @@ The goal is to demonstrate:
 - JWT-based authentication for protected routes
 
 ### 🧩 CRUD APIs
-- Example entity: `Tasks` (can be Notes, Products, etc.)
+- Example entity: `Users`
 - Create, Read, Update, Delete endpoints
 - Accessible only to authorized users
 
 ### 💾 Database
 - MongoDB schema design using Mongoose
-- Relations between Users and Tasks (if applicable)
 
 ### 🧱 API Versioning & Validation
-- Organized routes with versioning (`/api/v1/...`)
+- Organized routes with versioning
 - Input validation using `express-validator`
 - Centralized error handling
 
@@ -65,8 +64,3 @@ The goal is to demonstrate:
 - Protected dashboard after authentication
 - CRUD interface for entity operations
 - Display API success/error messages
-
----
-
-## 📁 Project Structure
-
